@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card.js';
+import App from './App';
 import 'tachyons';
 import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
-  <div>
-    <Card/>
-    <Card/>
-    <Card/>
-  </div>
+  <App/>
   ,
   document.getElementById('root')
 );
